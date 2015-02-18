@@ -1,4 +1,4 @@
-## Brackets Selection
+## Brackets Selections
 
 A [Brackets](http://brackets.io) extension that adds Sublime Text style selections to Brackets. 
 
