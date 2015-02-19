@@ -244,9 +244,20 @@ define(function (require, exports, module) {
         handleSelectToEnd
     );
     KeyBindingManager.addBinding(CMD_SELECTBRACKETS, "Ctrl-Shift-M", "mac");
+    KeyBindingManager.addBinding(CMD_SELECTBRACKETS, "Ctrl-Shift-M", "linux");
+    KeyBindingManager.addBinding(CMD_SELECTBRACKETS, "Ctrl-Shift-M", "win");
+    
     KeyBindingManager.addBinding(CMD_SELECT_INDENT, "Ctrl-Shift-J", "mac");
+    KeyBindingManager.addBinding(CMD_SELECT_INDENT, "Ctrl-Shift-J", "linux");
+    KeyBindingManager.addBinding(CMD_SELECT_INDENT, "Ctrl-Shift-J", "win");
+    
     KeyBindingManager.addBinding(CMD_SELECT_TO_START, "Cmd-Shift-Up", "mac");
+    KeyBindingManager.addBinding(CMD_SELECT_TO_START, "Ctrl-Shift-Up", "linux");
+    KeyBindingManager.addBinding(CMD_SELECT_TO_START, "Ctrl-Shift-Up", "win");
+    
     KeyBindingManager.addBinding(CMD_SELECT_TO_END, "Cmd-Shift-Down", "mac");
+    KeyBindingManager.addBinding(CMD_SELECT_TO_END, "Ctrl-Shift-Down", "linux");
+    KeyBindingManager.addBinding(CMD_SELECT_TO_END, "Ctrl-Shift-Down", "win");
     
     // Create a menu item bound to the command
     var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
