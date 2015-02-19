@@ -21,7 +21,7 @@ Press "Ctrl-Shift-M" to select the text between matching brackets or parens. Whe
 
 Press "Ctrl-Shift-J" to select the indentation level from the current cursor position. When repeatedly pressing "Ctrl-Shift-J" the selection will expand to the preceding indentation level, provided your code is properly indented.
 
-Press "Ctrl-Shift-Up" or "Ctrl-Shift-Down" to select everything from the current cursor position to the start or the end of the document.
+Press "Cmd/Ctrl-Shift-Up" or "Cmd/Ctrl-Shift-Down" to select everything from the current cursor position to the start or the end of the document.
 
 
 ## Version History
